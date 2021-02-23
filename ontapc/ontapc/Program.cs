@@ -8,6 +8,7 @@ namespace ontapc
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("test git");
+            Console.WriteLine("test git 2");
         }
     }
 }
