@@ -50,6 +50,17 @@ namespace Labguide_3_1
                         }
                         Console.WriteLine("ERROR! Chưa có phần tử nào trong mảng.");
                         break;
+                    case 3:
+                        for (int i = 0; i < array.Length; i++)
+			            {
+                            array[i] = array[array.Length - 1];
+			            }
+                        Console.WriteLine("Success!");
+                        for (int i = 0; i < array.Length; i++)
+                        {
+                            Console.Write(array[i]+"\t");
+                        }
+                        break;
                     case 9:
                         System.Environment.Exit(1);
                         break;
